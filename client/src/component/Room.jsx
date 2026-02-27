@@ -7,7 +7,7 @@ import { io } from "socket.io-client";
 import { FaCircleUser } from "react-icons/fa6";
 
 
-const socket = io("http://localhost:3000");
+const socket = io("https://colab-dev.onrender.com");
 
 function Room() {
 

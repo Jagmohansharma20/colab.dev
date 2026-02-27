@@ -3,7 +3,7 @@ import { FcGoogle } from "react-icons/fc";
 
 function Login() {
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:3000/auth/google";
+    window.location.href = "https://colab-dev.onrender.com/auth/google";
   };
 
   return (
